@@ -1,0 +1,9 @@
+html{
+    background-color: hsl(30, 54%, 90%);
+}
+
+.main{
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+}
