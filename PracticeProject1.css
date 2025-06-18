@@ -1,4 +1,5 @@
 html {
+    color: hsl(30, 10%, 34%);
     background-color: hsl(30, 54%, 90%);
     box-sizing: border-box;
     font-size: 16px;
@@ -9,58 +10,124 @@ html {
 }
 
 img {
-    width: 400px;
-    height: 200px;
-    border-radius: 7px;
+    width: 650px;
+    height: 300px;
+    border-radius: 10px;
     margin: auto;
 }
 
 .main {
     background-color: hsl(0, 0%, 100%);
-    width: 400px;
-    height: 1400px;
+    width: 650px;
+    height: 1550px;
     border: none;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 15px;
+    padding: 30px;
 
     font-family: 'Outfit';
 }
 
 .main h2 {
+    color: hsl(24, 5%, 18%);
     margin-bottom: 0;
     font-family: 'Young Serif', serif;
     font-weight: 400;
+    font-size: 40px;
 }
 
-.bold-text {
+[class*=bold-text] {
     font-weight: bold;
 }
 
 /* Preparation time */
 .intro-prep {
     background-color: hsl(330, 100%, 98%);
-    border-radius: 5px;
-    margin: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+
 }
 
 .intro-prep p {
     color: hsl(332, 51%, 32%);
+    margin: 10px 0px 0px 10px;
+    font-size: 20px;
+
+}
+
+/* Lists */
+ul,
+ol {
+    list-style-position: outside;
+}
+
+li {
+    /* margin-left: 5px; */
+    padding: 5px;
+    padding-left: 20px;
 }
 
 /* Bullet Points (Prep)*/
+.prep-list li {
+    padding-top: 0px;
+}
+
 .prep-list li::marker {
     color: hsl(332, 51%, 32%);
     font-size: 10px;
-    margin: 0px;
+
 }
 
-.ingred p {
+[class*=subhead] {
     color: hsl(14, 45%, 36%);
     font-family: 'Young Serif', serif;
+    font-size: 30px;
 }
 
-/* Bullet Points (Ingred) */
+/* List Items (Ingred) */
+.ingred-list li {
+    list-style-type: square;
+}
+
+/* Bullet Point */
 .ingred-list li::marker {
     font-size: 10px;
+}
 
+
+/* Line Break !*/
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(227, 227, 227);
+}
+
+/* Instructions !!!!!!!!!!!!!!!!!!!! */
+.inst {}
+
+.inst li::marker {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+
+/* Nutrition */
+.nutr table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.nutr tr {
+    border-bottom: solid 1px rgb(227, 227, 227);
+}
+
+.nutr td {
+    padding: 10px;
+}
+
+.nutr tbody tr:last-child {
+    border-bottom: none;
+}
+
+.bold-text-nutr {
+    color: hsl(14, 45%, 36%);
 }
