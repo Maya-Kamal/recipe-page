@@ -32,7 +32,8 @@ img {
     padding: 30px;
     width: 90%;
     max-width: 768px;
-    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
     justify-content: center;
     align-items: center;
 
@@ -76,17 +77,18 @@ ol {
 li {
     /* margin-left: 5px; */
     padding: 5px;
-    padding-left: 20px;
+    padding-left: 2%;
 }
 
 /* Bullet Points (Prep)*/
 .prep-list li {
     padding-top: 0px;
+    margin-left: 2%;
 }
 
 .prep-list li::marker {
     color: hsl(332, 51%, 32%);
-    font-size: 0.625rem;
+    font-size: 0.8rem;
 
 }
 
@@ -104,7 +106,7 @@ li {
 
 /* Bullet Point */
 .ingred-list li::marker {
-    font-size: 0.625rem;
+    font-size: 0.8rem;
 }
 
 
@@ -115,7 +117,12 @@ hr {
     background-color: rgb(227, 227, 227);
 }
 
-/* Instructions !!!!!!!!!!!!!!!!!!!! */
+/* Instructions */
+.inst li {
+    margin-left: -2%;
+    padding-left: 4%;
+}
+
 .inst li::marker {
     font-weight: bold;
     color: hsl(14, 45%, 36%);
@@ -143,52 +150,42 @@ hr {
     color: hsl(14, 45%, 36%);
 }
 
-/* Media Queries for Mobile Phones (screens up to 767px wide) */
+/* Media Queries for Mobile Phones */
 @media (max-width: 767px) {
     body {
         padding: 20px;
-        /* Mobile padding */
     }
 
     .main {
         padding: 30px;
-        /* Mobile internal padding */
         max-width: none;
-        /* Allows the width: 90% to scale fully for smaller screens */
     }
 
     .main h1 {
         font-size: 1rem;
-        /* Mobile font size */
         margin-bottom: 20px;
     }
 
     [class*=subhead] {
         font-size: 1.875rem;
-        /* Mobile font size */
         margin-top: 25px;
     }
 
-    .intro-prep p{
+    .intro-prep p {
         font-size: 1.25rem;
-        /* Mobile font size */
     }
 
     ul,
     ol {
         padding-left: 20px;
-        /* Mobile padding */
     }
 
     li {
         padding: 8px 0;
-        /* Mobile padding */
         padding-left: 15px;
-        /* Mobile indent */
     }
 
     .nutr td {
         padding: 12px 10px;
-        /* Mobile padding */
     }
 }
