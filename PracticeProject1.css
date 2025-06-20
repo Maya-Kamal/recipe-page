@@ -153,6 +153,9 @@ hr {
 /* Media Queries for Mobile Phones */
 @media (max-width: 767px) {
 
+    body{
+        margin: 5%;
+    }
     .main {
         padding: 3%;
         max-width: none;
@@ -160,12 +163,12 @@ hr {
 
     .main h1 {
         font-size: 2.5rem;
-        margin-bottom: 2%;
+        margin-bottom: 5%;
     }
 
     [class*=subhead] {
         font-size: 1.5rem;
-        margin-top: 2.5%;
+        margin-top: 5%;
     }
 
     .intro-prep p {
