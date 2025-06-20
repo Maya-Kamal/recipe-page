@@ -1,5 +1,5 @@
 🍳 Simple Omelette Recipe Page 🍳
-Hello there! 👋 Welcome to my first practice project from Frontend Mentor! This is my solution to the Simple Omelette Recipe challenge. It's been a fun journey learning to build a delightful and easy-to-follow recipe page that looks great on any device!
+Hello there! 👋 Welcome to my first practice project from Frontend Mentor! This is my solution to the Simple Omelette Recipe challenge. This project marks my first foray into web development after learning HTML and CSS, and it's been a fun journey building a delightful and easy-to-follow recipe page that looks great on any device!
 
 
 ✨ What's Inside?
