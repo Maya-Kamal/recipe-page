@@ -154,18 +154,18 @@ hr {
 @media (max-width: 767px) {
 
     .main {
-        padding: 30px;
+        padding: 3%;
         max-width: none;
     }
 
     .main h1 {
         font-size: 2.5rem;
-        margin-bottom: 20px;
+        margin-bottom: 2%;
     }
 
     [class*=subhead] {
         font-size: 1.5rem;
-        margin-top: 25px;
+        margin-top: 2.5%;
     }
 
     .intro-prep p {
@@ -174,15 +174,15 @@ hr {
 
     ul,
     ol {
-        padding-left: 20px;
+        padding-left: 2%px;
     }
 
     li {
         padding: 8px 0;
-        padding-left: 15px;
+        padding-left: 1.5%;
     }
 
     .nutr td {
-        padding: 12px 10px;
+        padding: 1.2% 1%;
     }
 }
