@@ -153,57 +153,57 @@ hr {
 /* Media Queries for Mobile Phones (screens up to 767px wide) */
 @media (max-width: 767px) {
     body {
-        padding: 10px;
+        /* padding: 10px; */
         /* Mobile padding */
     }
 
     .main {
-        padding: 30px;
+        padding: 5%;
         /* Mobile internal padding */
-        max-width: none;
+        /* max-width: none; */
         /* Allows the width: 90% to scale fully for smaller screens */
     }
 
     .main h1 {
-        font-size: 2.5rem;
+        /* font-size: 2.5rem; */
         /* Mobile font size */
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
 
     .main h2 {
-        font-size: 2rem;
+        /* font-size: 2rem; */
         /* Mobile font size */
-        margin-top: 30px;
+        /* margin-top: 30px; */
     }
 
     [class*=subhead] {
-        font-size: 1.875rem;
+        /* font-size: 1.875rem; */
         /* Mobile font size */
-        margin-top: 25px;
+        /* margin-top: 25px; */
     }
 
     .intro-prep p,
     .recipe-description {
         /* Assuming you have a recipe-description class for the intro text */
-        font-size: 1.25rem;
+        /* font-size: 1.25rem; */
         /* Mobile font size */
     }
 
     ul,
     ol {
-        padding-left: 20px;
+        /* padding-left: 20px; */
         /* Mobile padding */
     }
 
     li {
-        padding: 8px 0;
+        /* padding: 8px 0; */
         /* Mobile padding */
-        padding-left: 15px;
+        /* padding-left: 15px; */
         /* Mobile indent */
     }
 
     .nutr td {
-        padding: 12px 10px;
+        /* padding: 12px 10px; */
         /* Mobile padding */
     }
 }
