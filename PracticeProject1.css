@@ -153,7 +153,7 @@ hr {
 /* Media Queries for Mobile Phones (screens up to 767px wide) */
 @media (max-width: 767px) {
     body {
-        padding: 20px;
+        padding: 10px;
         /* Mobile padding */
     }
 
