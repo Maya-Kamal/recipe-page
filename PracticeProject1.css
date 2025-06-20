@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -7,13 +7,14 @@ body {
     background-color: hsl(30, 54%, 90%);
     font-size: 16px;
     display: flex;
+    padding: 0;
+    width: 100%;
+    max-width: 768px;
+    margin: auto;
+    min-height: 1vh;
+    /* dynamically change height and doesn't lead to overflow */
     justify-content: center;
     align-items: center;
-    padding: 0;
-    margin: 0;
-    width: 90%;
-    max-width: 768px;
-    min-height: 1vh; /* dynamically change height and doesn't lead to overflow */
 }
 
 img {
@@ -26,10 +27,14 @@ img {
 
 .main {
     background-color: hsl(0, 0%, 100%);
-    margin: auto;
     border: none;
     border-radius: 15px;
     padding: 30px;
+    width: 90%;
+    max-width: 768px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
 
     font-family: 'Outfit';
 }
@@ -39,7 +44,6 @@ img {
     margin-bottom: 0;
     font-family: 'Young Serif', serif;
     font-weight: 400;
-    /* font-size: 40px; */
     font-size: 2.5rem;
 }
 
@@ -138,8 +142,3 @@ hr {
 .bold-text-nutr {
     color: hsl(14, 45%, 36%);
 }
-
-/* 
-@media (max-width: 375px) {
-
-} */
