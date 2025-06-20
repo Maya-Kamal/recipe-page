@@ -54,7 +54,7 @@ img {
 /* Preparation time */
 .intro-prep {
     background-color: hsl(330, 100%, 98%);
-    border-radius: inherit;
+    border-radius: 15px;
     padding: 10px;
     margin-top: 20px;
 
@@ -141,4 +141,54 @@ hr {
 
 .bold-text-nutr {
     color: hsl(14, 45%, 36%);
+}
+
+/* Media Queries for Mobile Phones (screens up to 767px wide) */
+@media (max-width: 767px) {
+    body {
+        padding: 20px;
+        /* Mobile padding */
+    }
+
+    .main {
+        padding: 30px;
+        /* Mobile internal padding */
+        max-width: none;
+        /* Allows the width: 90% to scale fully for smaller screens */
+    }
+
+    .main h1 {
+        font-size: 2rem;
+        /* Mobile font size */
+        margin-bottom: 20px;
+    }
+
+    [class*=subhead] {
+        font-size: 1.875rem;
+        /* Mobile font size */
+        margin-top: 25px;
+    }
+
+    .intro-prep p{
+        font-size: 1.25rem;
+        /* Mobile font size */
+    }
+
+    ul,
+    ol {
+        padding-left: 20px;
+        /* Mobile padding */
+    }
+
+    li {
+        padding: 8px 0;
+        /* Mobile padding */
+        padding-left: 15px;
+        /* Mobile indent */
+    }
+
+    .nutr td {
+        padding: 12px 10px;
+        /* Mobile padding */
+    }
 }
