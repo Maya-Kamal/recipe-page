@@ -152,9 +152,6 @@ hr {
 
 /* Media Queries for Mobile Phones */
 @media (max-width: 767px) {
-    body {
-        padding: 20px;
-    }
 
     .main {
         padding: 30px;
