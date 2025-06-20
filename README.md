@@ -25,8 +25,7 @@ It's super simple!
 
 🚀 Live Demo:
 
-You can see the live version of this project right here: https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/
-(Remember to replace YOUR_GITHUB_USERNAME and YOUR_REPO_NAME with your actual GitHub details!)
+You can see the live version of this project right here: https://maya-kamal.github.io/recipe-page/
 
 💻 For Developers:
 
